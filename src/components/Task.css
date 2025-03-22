@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+    box-shadow: none;
+    border: none;
+    font-family: "Poppins", system-ui;
+}
+
+.TaskBox {
+    position: relative;
+    max-height: 300px;
+    overflow: hidden;
+    padding: 15px;
+    background: #C8ACD6;
+    border-radius: 6px;
+    margin-top: 30px;
+}
+
+ul {
+    max-height: 250px;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    overflow-y: auto
+}
+
+li {
+    display: flex;
+    gap: 4px;
+}
+
+button {
+    padding: 5px;
+    background-color: #2E236C;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn {
+    width: 100%;
+    text-align: left;
+    padding-left: 10px;
+}
+
+li .btn:placeholder {
+    margin-left: 5px;
+}
+
+.line-through {
+    text-decoration: line-through;
+    background-color: #433D8B;
+}
+
+.info {
+    width: 100%;
+    background-color: #2E236C;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+.info h3 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.back {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px;
+    border: 2px solid #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
